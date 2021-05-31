@@ -22,10 +22,11 @@ let show = true;
 
 const menuSection = document.querySelector(".menu-section")
 const menuToggle = menuSection.querySelector(".menu-toggle")
+const menuBackground = document.getElementById("home")
 
 menuToggle.addEventListener("click", () => {
 
-  document.body.style.overflow = show ? "hidden" : "initial"
+  menuBackground.classList.toggle("on")
   menuSection.classList.toggle("on", show)
   show = !show;
 })

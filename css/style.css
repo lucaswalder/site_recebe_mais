@@ -586,7 +586,7 @@ justify-content: space-between;
   font-weight: 300;
 }
 
-.plan-three .price-plan span::after {
+.plan-three .price-plan::after {
   left: 90px;
 }
 
