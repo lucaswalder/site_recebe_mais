@@ -770,3 +770,24 @@ footer {
 .social-footer a {
   margin-right: 2.6rem;
 }
+
+#devname {
+  text-align: center;
+  font: 500 1.5rem 'Nunito', sans-serif;
+  color: var(--gray03);
+  padding-bottom: 2rem;
+}
+
+#devname a {
+  color: var(--gray01);
+}
+
+#up-arrow.active img {
+  background: var(--gray01);
+  padding: 1rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 4rem;
+  right:4rem;
+  transition: all 5ms;
+}

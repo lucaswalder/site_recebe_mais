@@ -29,3 +29,16 @@ menuToggle.addEventListener("click", () => {
   menuSection.classList.toggle("on", show)
   show = !show;
 })
+
+
+// scroll to top
+var backTop = document.getElementById("up-arrow");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    backTop.classList.add("active");
+  } else {
+    backTop.classList.remove("active")
+  }
+
+}
