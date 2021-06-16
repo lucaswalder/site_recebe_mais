@@ -25,11 +25,10 @@ const menuToggle = menuSection.querySelector(".menu-toggle")
 const menuBackground = document.getElementById("home")
 
 menuToggle.addEventListener("click", () => {
-
   menuBackground.classList.toggle("on")
   menuSection.classList.toggle("on", show)
   show = !show;
-})
+  })
 
 
 // scroll to top

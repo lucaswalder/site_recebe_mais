@@ -88,6 +88,19 @@ body {
   background: var(--gray-light01);
 }
 
+body::-webkit-scrollbar {
+  width: 6px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--gray01);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
 /* buttons */
 .btn-demo {
   color: white;
